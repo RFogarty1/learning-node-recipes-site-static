@@ -1,0 +1,15 @@
+
+
+form > label {
+	display:block;
+}
+
+form > input {
+	display: block;
+	margin-bottom: 10px;
+}
+
+form > textarea {
+	margin-bottom: 10px;
+}
+

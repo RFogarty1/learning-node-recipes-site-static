@@ -1,0 +1,19 @@
+
+
+.output-list {
+	list-style-type: circle;
+	list-style-position: outside;
+	padding-left: 10px;
+	margin-left: 10px;
+}
+
+.single-recipe-form {
+	margin-bottom: 10px;
+}
+
+
+@media screen and (max-width:860px){
+.single-recipe-form > label {
+    display: block;
+}
+

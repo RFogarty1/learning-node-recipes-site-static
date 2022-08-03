@@ -1,0 +1,21 @@
+{
+  "name": "att1",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test":"node --experimental-vm-modules node_modules/jest/bin/jest.js",
+    "clear_jest": "jest --clearCache"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "better-sqlite3": "^7.5.3",
+    "jsdom": "^20.0.0",
+    "metalsmith": "^2.5.0"
+  },
+  "devDependencies": {
+    "jest": "^28.1.2"
+  }
+}
