@@ -16,6 +16,7 @@ function _createHomePage(fileObjs, metalsmithInstance){
 function _addRecipeListToHomepage(fileObjs, metalsmithInstance)
 {
 	let recipeNames = _getRecipeNames()
+	recipeNames.sort()
 	let inpFileObj = fileObjs[homeFileName];
 
 	_addContentsForRecipeNames(inpFileObj, recipeNames);
