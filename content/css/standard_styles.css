@@ -99,13 +99,8 @@ figcaption {
 	.recipe-summary-box {
 		flex: 0 1 80%; /* grow shrink basis */
 		color: green;
-		background: red;
 		margin-bottom: 10px;
 		margin-left: 0px;
-	}
-
-	.recipe-summary-box * {
-		background: red;
 	}
 
 }

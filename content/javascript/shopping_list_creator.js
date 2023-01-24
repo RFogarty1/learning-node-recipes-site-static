@@ -80,7 +80,6 @@ const createOutputList = () => {
 	let outputListHeader = document.querySelector(".output-list");
 
 	outputListHeader.innerHTML = outHTML; 
-	console.log("TODO: Create the output list");
 	console.log(outHTML);
 }
 
