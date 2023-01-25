@@ -1,0 +1,116 @@
+
+/* Global Variables */
+:root {
+	--maxPageWidth: 1200px;
+	--backgroundColor: rgb(235,235,235);
+}
+
+
+
+
+/* Global Styles */
+
+
+* {
+	background: var(--backgroundColor);
+}
+
+
+
+h1 {
+	font-size:50px;
+	line-height: 1;
+	text-align: center;
+	max-width: var(--maxPageWidth);
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+
+h2 {
+	font-size:30px;
+	line-height: 1;
+	max-width: var(--maxPageWidth);
+	margin-bottom: 10px;
+	margin-top: 10px;
+}
+
+figcaption {
+	margin-top: 10px;
+}
+
+
+/* For each recipe item on the homepage */
+
+/*
+.content-box {
+	color: red;
+}
+*/
+
+.recipes-grid {
+	display: flex;
+	flex-wrap: wrap;
+	max-width: var(--maxPageWidth);
+/*	justify-content: center; */
+}
+
+.recipe-summary-box {
+	flex: 0 0 27%; /*grow shrink basis*/
+/*	color: green;
+	background: blue; */
+	margin-bottom: 10px;
+	margin-left: 10px;
+	justify-content: center;
+	text-align:center;
+}
+
+.recipes-grid img {
+	max-height: 100px;
+	align-self: center
+}
+
+/*
+.recipe-summary-box * {
+	background: blue;
+}
+*/
+
+
+
+.nav-bar {
+	text-align: center;
+	margin-bottom: 20px;
+	max-width: var(--maxPageWidth);
+}
+
+
+.btnA {
+	color: white;
+	background:olive;
+	text-decoration: none;
+	padding: 8px;
+	border-radius: 4px;
+	display: inline-block;
+}
+
+
+/* Let the recipe grid go to single column when the screen gets below a certain size */
+@media screen and (max-width:500px){
+	.recipe-summary-box {
+		flex: 0 1 80%; /* grow shrink basis */
+		color: green;
+/*		background: red;*/
+		margin-bottom: 10px;
+		margin-left: 0px;
+	}
+
+/*
+	.recipe-summary-box * {
+		background: red;
+	}
+*/
+}
+
+
+
+

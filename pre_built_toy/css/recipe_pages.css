@@ -1,0 +1,45 @@
+
+
+.ingredient-list {
+	list-style-type: circle;
+	list-style-position: outside;
+	padding-left: 10px;
+	margin-left: 10px;
+}
+
+.ingredient-list > li {
+    margin-top: 2px;
+}
+
+.recipe-instructions {
+	list-style-type: decimal;
+	padding-left: 10px;
+	margin-left: 15px;
+}
+
+.recipe-instructions > li {
+	margin-top: 2px;
+}
+
+.recipe-page-image {
+	max-height: 200px;
+}
+
+.recipe-instructions > li {
+	margin-bottom: 7px;
+}
+
+/*
+ul {
+	background: red;
+}
+
+ul ~ .ingredient-list {
+	background: red;
+}
+
+.ingredient-list > li {
+	background: green;
+}
+*/
+
